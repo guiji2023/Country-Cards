@@ -1,0 +1,91 @@
+@import 'resets.css';
+
+
+option{
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: orangered;
+        scale: 1.1;
+    }
+}
+
+input{
+   
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid orangered;
+    background-color: inherit;
+    &:focus{
+        outline: none;
+    }
+}
+
+
+
+.countries {
+    /* margin-bottom: 8rem; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    /* opacity: 0; */
+    transition: opacity 1s;
+  }
+  
+  .country {
+    background-color: #fff;
+    font-size: 1.8rem;
+    width: 14rem;
+    border: solid 5px orangered;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    &:hover{
+      scale: 1.1; }
+    
+   
+  }
+  
+
+  .country__img {
+    width: 214px;
+    height: 107px;
+    object-fit: cover;
+    background-color: #eee;
+  }
+  
+  .country__data {
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
+  
+  .country__name {
+    font-size: 1.5rem;
+    height: 58px;
+  }
+  
+  .country__region {
+    font-size: 1rem;
+    padding-top: 5px;
+    
+    text-transform: uppercase;
+    color: #888;
+  }
+  
+  p{
+    font-size: 1rem;
+  }
+  .country__row span {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .currency, .language, .population, .region {
+    position: relative;
+    bottom: 8px;
+  }
+ 
