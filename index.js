@@ -104,7 +104,7 @@ const filterCountriesBySearch = async()=>{
 (async() => {
     
 const countries = await getCountryData();
-renderCards(countries);
+
 
 
 
